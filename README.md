@@ -5,16 +5,15 @@ An intelligent address book that allows user management and uses AI to automatic
 # 🚀 快速开始
 按照以下步骤在本地运行项目：
 
-1. 克隆项目
+## 1. 克隆项目
 Bash
 
 git clone https://github.com/your-username/gemini-smart-connect.git
 cd gemini-smart-connect
-2. 安装依赖
-Bash
+## 2. 安装依赖
 
 npm install
-3. 配置环境变量
+## 3. 配置环境变量
 在项目根目录下创建一个 .env (或者 .env.local) 文件，并添加您的 Google Gemini API Key：
 
 Code snippet
@@ -22,13 +21,13 @@ Code snippet
 GEMINI_API_KEY=your_api_key_here
 注意: 您可以从 Google AI Studio 获取 API Key。
 
-4. 运行开发服务器
+## 4. 运行开发服务器
 Bash
 
 npm run dev
 打开浏览器访问 http://localhost:3000 (或终端显示的端口)。
 
-📖 使用指南
+# 📖 使用指南
 登录与注册
 用户模式: 默认选择 "User" 标签。点击底部的 "Need an account? Create one" 进行注册。
 
