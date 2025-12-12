@@ -6,13 +6,13 @@ An intelligent address book that allows user management and uses AI to automatic
 按照以下步骤在本地运行项目：
 
 ## 1. 克隆项目
-Bash‘’‘
+Bash
 
 git clone https://github.com/your-username/gemini-smart-connect.git
 cd gemini-smart-connect’‘’
 ## 2. 安装依赖
-Bash‘’‘
-npm install‘’‘
+'''Bash
+npm install'''
 ## 3. 配置环境变量
 在项目根目录下创建一个 .env (或者 .env.local) 文件，并添加您的 Google Gemini API Key：
 
