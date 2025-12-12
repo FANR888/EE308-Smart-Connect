@@ -6,10 +6,10 @@ An intelligent address book that allows user management and uses AI to automatic
 按照以下步骤在本地运行项目：
 
 ## 1. 克隆项目
-Bash
-
+```
 git clone https://github.com/your-username/gemini-smart-connect.git
-cd gemini-smart-connect’‘’
+cd gemini-smart-connect
+```
 ## 2. 安装依赖
 ```
 npm install
@@ -23,9 +23,9 @@ GEMINI_API_KEY=your_api_key_here
 注意: 您可以从 Google AI Studio 获取 API Key。
 
 ## 4. 运行开发服务器
-Bash
-
+```
 npm run dev
+```
 打开浏览器访问 http://localhost:3000 (或终端显示的端口)。
 
 # 📖 使用指南
@@ -43,7 +43,7 @@ npm run dev
 
 # 📂 项目结构
 Plaintext
-
+```
 src/
 ├── components/      # UI 组件 (ContactForm 等)
 ├── services/        # 业务逻辑 (StorageService, ExcelService, AIService)
@@ -51,3 +51,4 @@ src/
 ├── App.tsx          # 主应用逻辑与路由
 ├── index.tsx        # 入口文件
 └── index.css        # Tailwind 样式引入
+```
