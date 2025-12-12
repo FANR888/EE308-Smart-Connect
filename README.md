@@ -11,8 +11,9 @@ Bash
 git clone https://github.com/your-username/gemini-smart-connect.git
 cd gemini-smart-connect’‘’
 ## 2. 安装依赖
-'''Bash
-npm install'''
+```
+npm install
+```
 ## 3. 配置环境变量
 在项目根目录下创建一个 .env (或者 .env.local) 文件，并添加您的 Google Gemini API Key：
 
