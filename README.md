@@ -42,8 +42,7 @@ npm run dev
 点击联系人卡片上的 星星图标 将其加入收藏夹。
 
 # 📂 项目结构
-Plaintext
-```
+Plaintext```
 src/
 ├── components/      # UI 组件 (ContactForm 等)
 ├── services/        # 业务逻辑 (StorageService, ExcelService, AIService)
